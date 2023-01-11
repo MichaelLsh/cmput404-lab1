@@ -1,0 +1,54 @@
+Question 1: What is your GitHub URL?
+
+- https://github.com/MichaelLsh
+
+Question 2:  What version is the requests library installed on the system?
+
+- 2.25.1
+
+Question 3: What version is the requests library installed in the virtualenv?
+
+- 2.28.1
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+
+- 1st difference: 
+After activating venv, at the head of the command line will be displaying (venv) which represents successfully activated virtual environment.
+
+- 2nd difference: 
+Under virtual environment, Python3 is auto-installed so that can only use python filename.py to execute the python file. Unlike non-virtual enviroment, need to specify python or python3 before python file execution. 
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+
+- HTTP/1.1 301 Moved Permanently
+
+- http://www.google.com/ 
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+
+- HTTP/1.1 301 Moved Permanently
+
+- the one returned by curl -i is HTTP/ 1.1 301 Moved Permanently; curl -iL returns the status code of HTTP/1.1 418 I'm a Teapot 
+
+- The return code will be HTTP/2 418
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+
+- From 
+<H3>Form Contents:</H3>
+<P>No form fields.
+<DL>
+</DL>
+
+  to 
+<H3>Form Contents:</H3>
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL>
+
+- This method -X POST is useful for adding new data in and posting data
+
+Question 8: What is the raw URL to your Python script on GitHub?
+
+- 
