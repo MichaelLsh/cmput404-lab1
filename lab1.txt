@@ -51,4 +51,4 @@ Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle
 
 Question 8: What is the raw URL to your Python script on GitHub?
 
-- 
+- https://raw.githubusercontent.com/MichaelLsh/cmput404-lab1/main/lab1.py
